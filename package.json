@@ -8,7 +8,7 @@
 		"url": "ssh://git@github.com:dassana-io/web-icons",
 		"directory": "@dassana-io/web-icons"
 	},
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"scripts": {
 		"build": "rollup -c rollup.config.ts",
 		"lint": "eslint src --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0"
