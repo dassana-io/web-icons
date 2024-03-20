@@ -15,13 +15,14 @@ jobs:
                   node-version: '16.x'
                   registry-url: https://npm.pkg.github.com/
                   scope: '@dassana-io'
+            - name: Setup timezone
+              uses: zcong1993/setup-timezone@master
+              with:
+                  timezone: America/Los_Angeles
             - name: Run install, lint, test, and build
               run: |
                   npm install
                   npm run lint
-                  npm test
                   npm run build
               env:
                   CI: true
-                  FONT_AWESOME_AUTH_TOKEN: ${{ secrets.FONT_AWESOME_AUTH_TOKEN }}
-                  NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
