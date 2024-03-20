@@ -21,7 +21,7 @@ import { ReactComponent as TENABLE } from './assets/logos/tenable.svg'
 import { ReactComponent as VERACODE } from './assets/logos/veracode.svg'
 import { ReactComponent as WIZ } from './assets/logos/wiz.svg'
 
-const LogoMap = {
+export const LogoMap = {
 	aws: AWS,
 	azure: AZURE,
 	carbon_black: CARBON_BLACK,
@@ -45,7 +45,5 @@ const LogoMap = {
 	veracode: VERACODE,
 	wiz: WIZ
 }
-
-export default LogoMap
 
 export type IconName = keyof typeof LogoMap
