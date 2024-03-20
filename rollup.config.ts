@@ -2,7 +2,6 @@ import commonjs from '@rollup/plugin-commonjs'
 import image from '@rollup/plugin-image'
 import pkg from './package.json'
 import resolve from '@rollup/plugin-node-resolve'
-import svgr from '@svgr/rollup'
 import terser from '@rollup/plugin-terser'
 import typescript from 'rollup-plugin-typescript2'
 
@@ -23,7 +22,6 @@ const config = {
 		resolve({ browser: true }),
 		commonjs(),
 		image(),
-		svgr(),
 		typescript({
 			useTsconfigDeclarationDir: true
 		}),
