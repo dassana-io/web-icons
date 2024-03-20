@@ -19,7 +19,7 @@
 		"declarationDir": "lib/types",
 		"noFallthroughCasesInSwitch": true,
 		"downlevelIteration": true,
-		"types": ["vite/client", "vite-plugin-svgr/client"]
+		"types": ["vite/client"]
 	},
 	"include": ["src"]
 }
