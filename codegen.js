@@ -1,6 +1,5 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const { exec } = require('child_process')
-const fs = require('fs')
+import { exec } from 'child_process'
+import fs from 'fs'
 
 const apiServices = ['global', 'preferences', 'profile', 'serviceMap']
 
