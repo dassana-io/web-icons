@@ -6,6 +6,7 @@ import AZURE_DARK from './assets/icons/dark/azure.svg'
 import CARBON_BLACK_DARK from './assets/icons/dark/carbon_black.svg'
 import CLOUDTRAIL_DARK from './assets/icons/dark/cloudtrail.svg'
 import CROWDSTRIKE_DARK from './assets/icons/dark/crowdstrike.svg'
+import CYERA_DARK from './assets/icons/dark/cyera.svg'
 import DEPENDABOT_DARK from './assets/icons/dark/dependabot.svg'
 import EKS_DARK from './assets/icons/dark/eks.svg'
 import GCP_DARK from './assets/icons/dark/gcp.svg'
@@ -40,6 +41,7 @@ import AZURE_LIGHT from './assets/icons/light/azure.svg'
 import CARBON_BLACK_LIGHT from './assets/icons/light/carbon_black.svg'
 import CLOUDTRAIL_LIGHT from './assets/icons/light/cloudtrail.svg'
 import CROWDSTRIKE_LIGHT from './assets/icons/light/crowdstrike.svg'
+import CYERA_LIGHT from './assets/icons/light/cyera.svg'
 import DEPENDABOT_LIGHT from './assets/icons/light/dependabot.svg'
 import EKS_LIGHT from './assets/icons/light/eks.svg'
 import GCP_LIGHT from './assets/icons/light/gcp.svg'
@@ -75,6 +77,7 @@ const darkIconMap = {
 	carbon_black: CARBON_BLACK_DARK,
 	cloudtrail: CLOUDTRAIL_DARK,
 	crowdstrike: CROWDSTRIKE_DARK,
+	cyera: CYERA_DARK,
 	dependabot: DEPENDABOT_DARK,
 	eks: EKS_DARK,
 	gcp: GCP_DARK,
@@ -111,6 +114,7 @@ const lightIconMap = {
 	carbon_black: CARBON_BLACK_LIGHT,
 	cloudtrail: CLOUDTRAIL_LIGHT,
 	crowdstrike: CROWDSTRIKE_LIGHT,
+	cyera: CYERA_LIGHT,
 	dependabot: DEPENDABOT_LIGHT,
 	eks: EKS_LIGHT,
 	gcp: GCP_LIGHT,
