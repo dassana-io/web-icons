@@ -2,6 +2,7 @@ import AWS from './assets/logos/aws.svg'
 import AZURE from './assets/logos/azure.svg'
 import CARBON_BLACK from './assets/logos/carbon_black.svg'
 import CROWDSTRIKE from './assets/logos/crowdstrike.svg'
+import CUSTOM from './assets/logos/custom.svg'
 import CYERA from './assets/logos/cyera.svg'
 import DEPENDABOT from './assets/logos/dependabot.svg'
 import GCP from './assets/logos/gcp.svg'
@@ -27,6 +28,7 @@ export const LogoMap = {
 	azure: AZURE,
 	carbon_black: CARBON_BLACK,
 	crowdstrike: CROWDSTRIKE,
+	custom: CUSTOM,
 	cyera: CYERA,
 	dependabot: DEPENDABOT,
 	gcp: GCP,
