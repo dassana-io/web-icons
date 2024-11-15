@@ -19,6 +19,7 @@ import LUCIDUM_DARK from './assets/icons/dark/lucidum.svg'
 import MICROSOFT_DEFENDER_DARK from './assets/icons/dark/microsoft_defender.svg'
 import NETWORK_FIREWALL_DARK from './assets/icons/dark/network_firewall.svg'
 import OCPP_DARK from './assets/icons/dark/ocpp.svg'
+import OKTA_DARK from './assets/icons/dark/okta.svg'
 import ORACLE_DARK from './assets/icons/dark/oracle.svg'
 import ORCA_DARK from './assets/icons/dark/orca.svg'
 import PRISMA_DARK from './assets/icons/dark/prisma.svg'
@@ -55,6 +56,7 @@ import LUCIDUM_LIGHT from './assets/icons/light/lucidum.svg'
 import MICROSOFT_DEFENDER_LIGHT from './assets/icons/light/microsoft_defender.svg'
 import NETWORK_FIREWALL_LIGHT from './assets/icons/light/network_firewall.svg'
 import OCPP_LIGHT from './assets/icons/light/ocpp.svg'
+import OKTA_LIGHT from './assets/icons/light/okta.svg'
 import ORACLE_LIGHT from './assets/icons/light/oracle.svg'
 import ORCA_LIGHT from './assets/icons/light/orca.svg'
 import PRISMA_LIGHT from './assets/icons/light/prisma.svg'
@@ -92,6 +94,7 @@ const darkIconMap = {
 	microsoft_defender: MICROSOFT_DEFENDER_DARK,
 	network_firewall: NETWORK_FIREWALL_DARK,
 	ocpp: OCPP_DARK,
+	okta: OKTA_DARK,
 	oracle: ORACLE_DARK,
 	orca: ORCA_DARK,
 	prisma: PRISMA_DARK,
@@ -130,6 +133,7 @@ const lightIconMap = {
 	microsoft_defender: MICROSOFT_DEFENDER_LIGHT,
 	network_firewall: NETWORK_FIREWALL_LIGHT,
 	ocpp: OCPP_LIGHT,
+	okta: OKTA_LIGHT,
 	oracle: ORACLE_LIGHT,
 	orca: ORCA_LIGHT,
 	prisma: PRISMA_LIGHT,
