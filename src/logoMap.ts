@@ -15,6 +15,7 @@ import ORACLE from './assets/logos/oracle.svg'
 import ORCA from './assets/logos/orca.svg'
 import PRISMA from './assets/logos/prisma.svg'
 import QUALYS from './assets/logos/qualys.svg'
+import SEMGREP from './assets/logos/semgrep.svg'
 import SENTINEL_ONE from './assets/logos/sentinel_one.svg'
 import SERVICE_NOW from './assets/logos/service_now.svg'
 import SNYK from './assets/logos/snyk.svg'
@@ -41,6 +42,7 @@ export const LogoMap = {
 	orca: ORCA,
 	prisma: PRISMA,
 	qualys: QUALYS,
+	semgrep: SEMGREP,
 	sentinel_one: SENTINEL_ONE,
 	service_now: SERVICE_NOW,
 	snyk: SNYK,

@@ -27,6 +27,7 @@ import QUALYS_DARK from './assets/icons/dark/qualys.svg'
 import ROUTE_53_DARK from './assets/icons/dark/route53.svg'
 import S3_ACCESS_DARK from './assets/icons/dark/s3_access.svg'
 import SENTINEL_ONE_DARK from './assets/icons/dark/sentinel_one.svg'
+import SEMGREP_DARK from './assets/icons/dark/semgrep.svg'
 import SERVICE_NOW_DARK from './assets/icons/dark/service_now.svg'
 import SNYK_DARK from './assets/icons/dark/snyk.svg'
 import STACKROX_DARK from './assets/icons/dark/stackrox.svg'
@@ -63,6 +64,7 @@ import PRISMA_LIGHT from './assets/icons/light/prisma.svg'
 import QUALYS_LIGHT from './assets/icons/light/qualys.svg'
 import ROUTE_53_LIGHT from './assets/icons/light/route53.svg'
 import S3_ACCESS_LIGHT from './assets/icons/light/s3_access.svg'
+import SEMGREP_LIGHT from './assets/icons/light/semgrep.svg'
 import SENTINEL_ONE_LIGHT from './assets/icons/light/sentinel_one.svg'
 import SERVICE_NOW_LIGHT from './assets/icons/light/service_now.svg'
 import SNYK_LIGHT from './assets/icons/light/snyk.svg'
@@ -101,6 +103,7 @@ const darkIconMap = {
 	qualys: QUALYS_DARK,
 	route53: ROUTE_53_DARK,
 	s3_access: S3_ACCESS_DARK,
+	semgrep: SEMGREP_DARK,
 	sentinel_one: SENTINEL_ONE_DARK,
 	service_now: SERVICE_NOW_DARK,
 	snyk: SNYK_DARK,
@@ -140,6 +143,7 @@ const lightIconMap = {
 	qualys: QUALYS_LIGHT,
 	route53: ROUTE_53_LIGHT,
 	s3_access: S3_ACCESS_LIGHT,
+	semgrep: SEMGREP_LIGHT,
 	sentinel_one: SENTINEL_ONE_LIGHT,
 	service_now: SERVICE_NOW_LIGHT,
 	snyk: SNYK_LIGHT,
