@@ -8,7 +8,7 @@
 		"url": "ssh://git@github.com:dassana-io/web-icons",
 		"directory": "@dassana-io/web-icons"
 	},
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"scripts": {
 		"build": "rollup -c rollup.config.ts --configPlugin typescript",
 		"lint": "eslint --fix"
