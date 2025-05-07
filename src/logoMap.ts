@@ -1,6 +1,7 @@
 import AWS from './assets/logos/aws.svg'
 import AZURE from './assets/logos/azure.svg'
 import CARBON_BLACK from './assets/logos/carbon_black.svg'
+import CORTEX from './assets/logos/cortex.svg'
 import CROWDSTRIKE from './assets/logos/crowdstrike.svg'
 import CUSTOM from './assets/logos/custom.svg'
 import CYERA from './assets/logos/cyera.svg'
@@ -28,6 +29,7 @@ export const LogoMap = {
 	aws: AWS,
 	azure: AZURE,
 	carbon_black: CARBON_BLACK,
+	cortex: CORTEX,
 	crowdstrike: CROWDSTRIKE,
 	custom: CUSTOM,
 	cyera: CYERA,
